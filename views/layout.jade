@@ -1,0 +1,20 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+    script(src="http://maps.google.com/maps/api/js?sensor=false")
+    style(type='text/css')
+      html, body {
+          width: 100%;
+          height: 100%;
+        }
+        #map_canvas {
+          height: 440px;
+          width: 940px;
+        }
+    script(type='text/javascript', src='/javascripts/script.js')
+    
+  body!= body
+  
