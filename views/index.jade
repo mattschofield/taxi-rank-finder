@@ -1,9 +1,23 @@
 div(class="container")
   div(class="hero-unit")
     h1 Where is my nearest Taxi rank?
+    br
+    p The green icon shows where you are, the red is your nearest taxi rank
+    p#duration
   div(class="row")
     div(class="span12")
       div(id="locationinfo")
+      input(id="latlon", type="hidden", data-lat="", data-lon="")
   div(class="row")
     div(class="span12")
       div(id="map_canvas")
+  div(class="row")
+    br
+    div(class="span9 offset1", style="font-size: 18px; font-weight: 200; line-height: 27px;")
+      span 
+      | Crafted lovingly by 
+      a(href="https://www.twitter.com/@callmetonystark") Matt Schofield 
+      | at 
+      a(href="https://twitter.com/search?q=%23mcrhack") #mcrhack 
+      | - Manchester Hack Day
+  br

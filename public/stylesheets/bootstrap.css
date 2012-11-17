@@ -3393,6 +3393,4 @@ body p.flash.info:before {
   font-style: italic;
   content: 'Hurray! ';
 }
-body {
-  background-image:url('/images/groovepaper.png');
-}
+img { max-width : none }
